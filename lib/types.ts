@@ -7,7 +7,7 @@ export interface Vehicle {
   msrp: number;
   image: string;
   fuelType: 'Gasoline' | 'Hybrid' | 'Electric' | 'Plug-in Hybrid';
-  drivetrain: 'FWD' | 'RWD' | 'AWD';
+  drivetrain: 'FWD' | 'RWD' | 'AWD' | '4WD';
   engine: string;
   horsepower: number;
   mpg: {
